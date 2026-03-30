@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:8080';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? 'https://resume-analyzer-backend-xt3g.onrender.com';
 
 const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
 
